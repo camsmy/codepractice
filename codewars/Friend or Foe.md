@@ -1,5 +1,5 @@
 # Friend or Foe?
-#### **Details:**
+### **Details:** ###
 - - - -
 Make a program that filters a list of strings and returns a list with only your friends name in it.
 
@@ -12,12 +12,12 @@ i.e.
 friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 Note: keep the original order of the names in the output.
 
-#### **Problems Encountered:**
+#### **Problems Encountered:** ###
 - - - -
 * Test case includes a ['Ryan', 'Marks', '123', '1'].
 * No repeating names in the returned array
 
-#### **Solution**
+#### **Solution** ###
 - - - -
 ```
 'use strict'
