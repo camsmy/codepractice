@@ -1,4 +1,8 @@
 # Friend or Foe?
+
+**Laguage used: Javascript**
+
+
 ### **Details:** ###
 Make a program that filters a list of strings and returns a list with only your friends name in it.
 
