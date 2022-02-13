@@ -20,12 +20,15 @@ For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should r
 ```
 'use strict'
 function countPositivesSumNegatives(input) {
-    let array = [0,0];
+    if (!input || !input.length) return []
 
-    if(input.length){//returns true if array is not empty: false if empty
+    let array = [0,0];
+    if(Array.isArray(input)){
         input.forEach(element => {
             let y = element > 0 ? array[0]++ : array[1] += element;
         });
+    }else{
+        return input;
     }
     return array;
 }
